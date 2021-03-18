@@ -72,11 +72,11 @@
 		896C54B4260154490096E286 /* Alura Viagens */ = {
 			isa = PBXGroup;
 			children = (
+				896C54B5260154490096E286 /* AppDelegate.swift */,
 				896C54E3260244E30096E286 /* Assets */,
 				896C54F026024AE40096E286 /* Model */,
 				896C54F126024B090096E286 /* Home */,
 				896C54F426024BE00096E286 /* ViagemDAO */,
-				896C54B5260154490096E286 /* AppDelegate.swift */,
 				896C54B7260154490096E286 /* SceneDelegate.swift */,
 				896C54BB260154490096E286 /* Main.storyboard */,
 				896C54BE2601544B0096E286 /* Assets.xcassets */,
