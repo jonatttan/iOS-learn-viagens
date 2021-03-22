@@ -27,7 +27,7 @@ class DetalhesViagemViewController: UIViewController {
             self.imagemPacoteViagem.image = UIImage(named: pacote.viagem.caminhoDaImagem)
             self.labelTituloPacoteViagem.text = pacote.viagem.titulo
             self.labelDescricaoPacoteViagem.text = pacote.descricao
-            self.labelDataViagem.text = pacote.dataViagem
+            self.labelDataViagem.text = "Válido para o periodo de " + pacote.dataViagem
             self.labelPrecoPacoteViagem.text = pacote.viagem.preco
         }
 
