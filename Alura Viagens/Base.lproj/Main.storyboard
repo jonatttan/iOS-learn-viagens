@@ -617,6 +617,9 @@
                                                 <state key="normal" title="Finalizar compra">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="botaoFinalizarCompra:" destination="IGm-C6-hib" eventType="touchUpInside" id="OiS-1S-st0"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -648,6 +651,7 @@
                         <outlet property="labelDescricaoPacoteViagem" destination="JH0-vf-xlW" id="2Lf-en-7XR"/>
                         <outlet property="labelPrecoPacoteViagem" destination="4ju-lA-rXd" id="0WL-fg-y6Q"/>
                         <outlet property="labelTituloPacoteViagem" destination="kgy-mj-iYO" id="HXf-XR-Jse"/>
+                        <outlet property="textFieldData" destination="VIi-11-496" id="GWb-b4-otM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OcR-uF-W8Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
